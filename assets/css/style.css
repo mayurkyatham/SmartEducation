@@ -2959,3 +2959,88 @@ table.table-inbox tbody tr.checked {
 		border-width: 4px;
 	}
 }
+
+
+@media (min-width: 992px) {
+	#toggle_btn {
+		align-items: center;
+		color: #18aefa;
+		display: inline-flex;
+		float: left;
+		font-size: 26px;
+		height: 60px;
+		justify-content: center;
+		margin-left: 15px;
+		padding: 0 15px;
+	}
+	.mini-sidebar .header-left .logo img {
+		height: auto;
+		max-height: 40px;
+		width: auto;
+	}
+	.mini-sidebar .header .header-left .logo {
+		display: none;
+	}
+	.mini-sidebar .header-left .logo.logo-small {
+		display: block;
+	}
+	.mini-sidebar .header .header-left {
+		padding: 0 5px;
+		width: 78px;
+	}
+	.mini-sidebar .sidebar {
+		width: 78px;
+	}
+	.mini-sidebar.expand-menu .sidebar {
+		width: 240px;
+	}
+	.mini-sidebar .menu-title {
+		visibility: hidden;
+		white-space: nowrap;
+	}
+	.mini-sidebar.expand-menu .menu-title {
+		visibility: visible;
+	}
+	.mini-sidebar .menu-title a {
+		visibility: hidden;
+	}
+	.mini-sidebar.expand-menu .menu-title a {
+		visibility: visible;
+	}
+	.modal-open.mini-sidebar .sidebar {
+		z-index: 1051;
+	}
+	.mini-sidebar .sidebar .sidebar-menu ul > li > a span {
+		display: none;
+		transition: all 0.2s ease-in-out;
+		opacity: 0;
+	}
+	.mini-sidebar.expand-menu .sidebar .sidebar-menu ul > li > a span {
+		display: inline;
+		opacity: 1;
+	}
+	.mini-sidebar.expand-menu .sidebar .sidebar-menu > ul > li > a i {
+		width: 20px;
+	}
+	.mini-sidebar .page-wrapper {
+		margin-left: 78px;
+	}
+}
+
+@media (max-width: 1199.5px) {
+	.sm-box h6 {
+		font-size: 30px;
+	}
+	.sm-box p {
+		font-size: 22px;
+	}
+	.sm-box .fab {
+		font-size: 100px;
+	}
+	.dash-widget3 {
+		padding-right: 15px;
+	}
+	.dash-widget4 {
+		padding-left: 15px;
+	}
+}

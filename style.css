@@ -133,6 +133,7 @@ ul, ol {
 .table-striped > tbody > tr:nth-of-type(2n+1) {
 	background-color: #f8f9fa;
 }
+
 .table.no-border > tbody > tr > td,
 .table > tbody > tr > th,
 .table.no-border > tfoot > tr > td,
@@ -142,6 +143,7 @@ ul, ol {
 	border-top: 0;
 	padding: 10px 8px;
 }
+
 .table-nowrap td,
 .table-nowrap th {
 	white-space: nowrap

@@ -1354,3 +1354,53 @@ div.dataTables_wrapper div.dataTables_info {
 	-ms-transform: rotate(-135deg);
 	transform: rotate(-135deg);
 }
+
+.user-menu {
+    float: right;
+    margin: 0;
+    position: relative;
+	z-index: 99;
+	padding-right: 15px;
+}
+.user-menu.nav > li > a {
+	color: #a0a0a0;
+	font-size: 14px;
+	line-height: 58px;
+	padding: 0 15px;
+	height: 60px;
+}
+.user-menu.nav > li > a:hover,
+.user-menu.nav > li > a:focus {
+	background-color: rgb(232 232 232 / 20%);
+}
+.user-menu.nav > li > a:hover i,
+.user-menu.nav > li > a:focus i {
+	color: #18aefa;
+}
+.user-img {
+	margin-right: 3px;
+	position: relative;
+}
+.user-menu.nav > li > a.mobile_btn {
+	border: 0;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	cursor: pointer
+}
+.user-menu .dropdown-menu {
+    min-width: 200px;
+    padding: 0;
+}
+.user-menu .dropdown-menu .dropdown-item {
+    padding: 7px 15px;
+}
+.user-menu .dropdown-menu .dropdown-item {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #e3e3e3;
+    padding: 10px 15px;
+}
+.user-menu .dropdown-menu .dropdown-item:hover {
+    color: #FFBC53;
+}

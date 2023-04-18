@@ -1,6 +1,6 @@
 # SmartEducation
 
-A learning management software (LMS) is a platform used by educational institutions, businesses, and organizations to create, manage, and deliver online courses and training programs. The project aims to develop an LMS that can cater to the needs of various educational and training programs.
+Smart Education is a learning management software (LMS) platform used by educational institutions, businesses, and organizations to create, manage, and deliver online courses and training programs. The project aims to develop an LMS that can cater to the needs of various educational and training programs.
 
 The learning management software will have the following features:
 

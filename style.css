@@ -43,14 +43,17 @@ input:-webkit-autofill:focus {
     font-size: 15px;
     height: 40px;
 }
+
 .form-control:focus {
 	border-color: #FFBC53;
 	box-shadow: none;
 	outline: 0 none;
 }
+
 .form-control.form-control-sm {
 	height: calc(1.5em + .5rem + 2px);
 }
+
 .form-control-sm {
 	background-color: #fff;
 }
